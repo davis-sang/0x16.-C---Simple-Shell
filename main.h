@@ -36,7 +36,7 @@ char *pathstr(char *right, char *first);
 char **parser(char *l);
 
 /* helper functions helper_functions.c */
-void no_n1(char *l);
+void no_nl(char *l);
 void free_grid(char **grid, int height);
 int special_char(char *buffer, ssize_t bytes, int *ex_st);
 
