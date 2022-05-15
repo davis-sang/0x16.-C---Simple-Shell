@@ -19,7 +19,6 @@ void _execute(int status, char **args, int *ex_st, int *tal)
 
 			else
 				wait(NULL);
-			
 			*ex_st = 0;
 		}
 		else if (access(args[0], F_OK) != 0)
