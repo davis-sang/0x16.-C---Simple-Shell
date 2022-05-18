@@ -16,7 +16,7 @@ int _path(char *first, char **input, char **env, int *ex_St);
 
 /* environment */
 int printenv(char **env, int *ex_st);
-char *cpy_env(char **env);
+char *cp_env(char **env);
 
 /* built-ins and execute function */
 void builtins(char *line, char **args, char **env, int *ex_st);
