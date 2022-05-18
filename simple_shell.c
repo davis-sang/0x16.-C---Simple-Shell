@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - Program that is simple UNIX command interpreter
+ * main - simple shell replication
  * @argc: argument count
  * @argv: argument vector
  * @env: the environment
