@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * _execute - function that executes in the main shell
- * @status: the status of the path, whether the file found is executable or not
- * @args: the parsed arguments
- * @ex_st: the exit status
+ * _execute - executes in the main shell
+ * @status: the status of the path,
+            whether the file found is executable or not
+ * @args: parsed arguments
+ * @ex_st: exit status
  * @tal: tally of commands or attempted commands that were run
  * Return: void
  */
