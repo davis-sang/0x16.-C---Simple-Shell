@@ -2,8 +2,7 @@
 
 /**
  * _execute - executes in the main shell
- * @status: the status of the path,
- *          whether the file found is executable or not
+ * @status: the status of the path,whether the file found is executable or not
  * @args: parsed arguments
  * @ex_st: exit status
  * @tal: tally of commands or attempted commands that were run
